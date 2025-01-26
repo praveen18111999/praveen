@@ -1,0 +1,45 @@
+/* Project Section Styling */
+.container {
+    padding: 50px 20px;
+  }
+  
+  .projects-section .card {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  .projects-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projects-section .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+  }
+  
+  .projects-section h2 {
+    font-size: 3rem;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  .projects-section p {
+    font-size: 1.1rem;
+    color: #495057;
+  }
+  
+  .projects-section .btn {
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .projects-section .btn:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  

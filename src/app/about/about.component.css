@@ -1,0 +1,48 @@
+/* About Section Styling */
+.about-section {
+    background: linear-gradient(
+        120deg,
+        rgba(0, 123, 255, 0.1),
+        rgba(0, 123, 255, 0)
+      ),
+      #f8f9fa;
+    border-radius: 15px;
+    padding: 60px 30px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    color: #007bff; /* Primary color for the heading */
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #495057;
+  }
+  
+  .about-section p span {
+    color: #007bff; /* Highlight color */
+  }
+  
+  .about-section .btn {
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about-section .btn:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Image Styling */
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 300px; /* Ensures it fits well */
+  }
+  

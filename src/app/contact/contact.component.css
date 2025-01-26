@@ -1,0 +1,55 @@
+
+/* Contact Section Styling */
+.container {
+    padding: 50px 20px;
+  }
+  
+  .text-center {
+    margin-bottom: 40px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    color: #495057;
+  }
+  
+  .social-links .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-links .btn i {
+    margin-right: 10px;
+  }
+  
+  .social-links .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .social-links .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .social-links .btn-outline-dark, .social-links .btn-outline-info {
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  
+  .social-links .btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .social-links .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  /* Add Font Awesome Icons for GitHub and LinkedIn */
+  .fab {
+    margin-right: 10px;
+  }
+  
