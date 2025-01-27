@@ -13,6 +13,8 @@
     color: #495057;
   }
   
+
+  a{text-decoration: none;}
   .social-links .btn {
     font-size: 1.1rem;
     padding: 10px 20px;
