@@ -1,15 +1,5 @@
 /* About Section Styling */
-.about-section {
-    background: linear-gradient(
-        120deg,
-        rgba(0, 123, 255, 0.1),
-        rgba(0, 123, 255, 0)
-      ),
-      #f8f9fa;
-    border-radius: 15px;
-    padding: 60px 30px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  }
+
 
   a{text-decoration: none;}
   
@@ -46,5 +36,17 @@
     border: 8px solid #ffffff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     max-width: 300px; /* Ensures it fits well */
+  }
+.bg {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(102, 4, 4, 0.6)
+      ), /* Transparent gradient overlay */
+      url("/assets/about.png") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   

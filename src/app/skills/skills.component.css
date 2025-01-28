@@ -4,6 +4,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin-bottom: 2rem;
+    
   }
   
   /* Skills Section */
@@ -28,7 +29,7 @@ h2 {
   /* Skill Text Styling */
   .skill-text {
     font-weight: 500; /* Medium font weight for text */
-    color: #333; /* Slightly darker color for text */
+    color:white; /* Slightly darker color for text */
   }
   
   /* Skill Section Headings */
@@ -47,3 +48,15 @@ h2 {
     color: #ff8800; /* Custom orange for Git */
   }
   
+  .skill {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), /* Transparent gradient overlay */
+      url("/assets/skills.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

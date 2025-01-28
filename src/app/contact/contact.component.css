@@ -54,4 +54,15 @@
   .fab {
     margin-right: 10px;
   }
-  
+body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(35, 33, 33, 0.6)
+      ), /* Transparent gradient overlay */
+      url("/assets/about.png") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
