@@ -10,6 +10,8 @@
     padding: 60px 30px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   }
+
+  a{text-decoration: none;}
   
   .about-section h2 {
     color: #007bff; /* Primary color for the heading */
